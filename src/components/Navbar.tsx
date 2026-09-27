@@ -6,7 +6,7 @@ export function Navbar() {
     <header className="sticky top-0 z-40 hidden border-b border-line bg-bg/90 backdrop-blur md:block">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="font-display text-xl tracking-tight text-ink">
-          Anuário <span className="text-gold">3º B</span>
+          Anuário <span className="text-gold">3º TV</span>
         </Link>
         <nav aria-label="Navegação principal">
           <ul className="flex items-center gap-7 font-mono text-[13px] text-ink-muted">

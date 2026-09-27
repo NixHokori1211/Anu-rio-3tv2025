@@ -1,4 +1,4 @@
-# Anuário Digital — 3º B
+# Anuário Digital — 3º TV
 
 Anuário digital da turma, construído em cima da especificação original e
 já passando por duas rodadas de revisão (v2, polimento) e uma de correções

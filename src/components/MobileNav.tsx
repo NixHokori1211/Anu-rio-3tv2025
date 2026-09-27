@@ -42,7 +42,7 @@ export function MobileNav() {
     <div className="md:hidden">
       <header className="sticky top-0 z-40 flex items-center justify-between border-b border-line bg-bg/95 px-5 py-4 backdrop-blur">
         <Link href="/" className="font-display text-lg text-ink" onClick={() => setOpen(false)}>
-          Anuário <span className="text-gold">3º B</span>
+          Anuário <span className="text-gold">3º TV</span>
         </Link>
         <button
           ref={toggleRef}

@@ -5,8 +5,8 @@ import { Footer } from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Anuário 3º B — Escola Estadual Raízes",
-  description: "Anuário digital da turma 3º B, 2025.",
+  title: "Anuário 3º TV — E.E. Reverendo Irineu Monteiro de Pinho",
+  description: "Anuário digital da turma 3º TV, 2025.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
