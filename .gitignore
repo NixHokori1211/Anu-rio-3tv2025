@@ -47,3 +47,6 @@ next-env.d.ts
 # project source, safe to regenerate locally
 /AGENTS.md
 /CLAUDE.md
+
+# leftover artifacts from local deploy tooling
+deploy-*.zip
