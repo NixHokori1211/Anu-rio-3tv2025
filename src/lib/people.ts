@@ -23,11 +23,12 @@ export function studentToPersonCard(student: Student): PersonCardData {
 }
 
 export function teacherToPersonCard(teacher: Teacher): PersonCardData {
+  const isStaffRole = teacher.subject.toLowerCase().startsWith("técnic");
   return {
     id: teacher.id,
     name: teacher.name,
-    role: `Professor(a) de ${teacher.subject}`,
-    description: `${teacher.yearsAtSchool} anos nesta escola.`,
+    role: isStaffRole ? teacher.subject : `Professor(a) de ${teacher.subject}`,
+    description: teacher.yearsAtSchool ? `${teacher.yearsAtSchool} anos nesta escola.` : "",
     note: teacher.message,
     photo: teacher.photo,
   };

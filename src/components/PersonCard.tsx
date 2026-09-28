@@ -23,10 +23,14 @@ export function PersonCard({ person }: { person: PersonCardData }) {
           {person.name}
           {person.nickname && <span className="text-ink-muted"> &ldquo;{person.nickname}&rdquo;</span>}
         </h3>
-        <p className="text-sm leading-relaxed text-ink-muted">{person.description}</p>
-        <p className="mt-auto border-t border-line pt-3 font-display text-base italic leading-snug text-ink">
-          &ldquo;{person.note}&rdquo;
-        </p>
+        {person.description && (
+          <p className="text-sm leading-relaxed text-ink-muted">{person.description}</p>
+        )}
+        {person.note && (
+          <p className="mt-auto border-t border-line pt-3 font-display text-base italic leading-snug text-ink">
+            &ldquo;{person.note}&rdquo;
+          </p>
+        )}
       </div>
     </article>
   );

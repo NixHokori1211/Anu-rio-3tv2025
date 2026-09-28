@@ -14,7 +14,7 @@ export type Teacher = {
   name: string;
   photo: string;
   subject: string;
-  yearsAtSchool: number;
+  yearsAtSchool?: number;
   message: string;
 };
 

@@ -13,7 +13,7 @@ export const turma = {
 };
 
 export const classStats: ClassStat[] = [
-  { label: "Alunos formados", value: "31" },
+  { label: "Alunos formados", value: "21" },
   { label: "Anos juntos", value: "3" },
   { label: "Provas de última hora", value: "∞" },
   { label: "Grupos de WhatsApp criados", value: "14" },
