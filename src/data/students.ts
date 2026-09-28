@@ -27,4 +27,5 @@ export const students: Student[] = [
   { id: "jacksandro-dos-santos", name: "Jacksandro dos Santos", photo: "/mock/jacksandro-dos-santos.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "thalia-semeniuk", name: "Thalia Semeniuk", photo: "/mock/thalia-semeniuk.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "ewerton-de-jesus", name: "Ewerton de Jesus", photo: "/mock/ewerton-de-jesus.jpg", className: "3º TV", description: "", quote: "", memories: [] },
+  { id: "thawenyo-rickelve", name: "Thawenyo Rickelve", photo: "/mock/thawenyo-rickelve.jpg", className: "3º TV", description: "", quote: "", memories: [] },
 ];
