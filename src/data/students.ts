@@ -17,7 +17,7 @@ export const students: Student[] = [
   { id: "rhuan-alves", name: "Rhuan Alves", photo: "/mock/rhuan-alves.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "maria-luiza-vadala", name: "Maria Luiza Vadala", photo: "/mock/maria-luiza-vadala.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "alberto-miugusto", name: "Alberto Miugusto", photo: "/mock/alberto-miugusto.jpg", className: "3º TV", description: "", quote: "", memories: [] },
-  { id: "bryan-alecsander", name: "Bryan Alecsander", photo: "/mock/bryan-alecsander.jpg", className: "3º TV", description: "", quote: "", memories: [] },
+  { id: "bryan-alecsander", name: "Bryan Alecsander", photo: "/mock/bryan-alecsander.jpg", className: "3º TV", description: "O personagem secundário que popularizou os scripts entre as turmas técnicas e regulares. Medalhista de prata na Omasp 2024 e bronze na Olisp 2025.", quote: "No fim, não importa o papel que te deram. Importa o que você fez com ele.", memories: [] },
   { id: "leticia-suellen", name: "Letícia Suellen", photo: "/mock/leticia-suellen.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "felipe-oliveira", name: "Felipe Oliveira", photo: "/mock/felipe-oliveira.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "david-dos-santos-2", name: "David dos Santos", photo: "/mock/david-dos-santos-2.jpg", className: "3º TV", description: "", quote: "", memories: [] },
