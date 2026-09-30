@@ -3,8 +3,6 @@ import { Student } from "@/lib/types";
 // Nomes reais da turma. Foto, descrição, frase e memórias ainda não foram
 // coletadas de cada um — ver README ("Fotos" e "Pendências de conteúdo
 // real") para o mecanismo já pronto pra receber isso sem mexer em código.
-// A dupla "David dos Santos" veio assim na lista original; mantive os dois
-// registros (ids distintos) — confirmar se são duas pessoas mesmo.
 export const students: Student[] = [
   { id: "jonathas-henrique", name: "Jonathas Henrique", photo: "/mock/jonathas-henrique.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "joao-pedro-kidila", name: "João Pedro Kidila", photo: "/mock/joao-pedro-kidila.jpg", className: "3º TV", description: "", quote: "", memories: [] },
@@ -20,7 +18,6 @@ export const students: Student[] = [
   { id: "bryan-alecsander", name: "Bryan Alecsander", photo: "/mock/bryan-alecsander.jpg", className: "3º TV", description: "O personagem secundário que popularizou os scripts entre as turmas técnicas e regulares. Medalhista de prata na Omasp 2024 e bronze na Olisp 2025.", quote: "No fim, não importa o papel que te deram. Importa o que você fez com ele.", memories: [] },
   { id: "leticia-suellen", name: "Letícia Suellen", photo: "/mock/leticia-suellen.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "felipe-oliveira", name: "Felipe Oliveira", photo: "/mock/felipe-oliveira.jpg", className: "3º TV", description: "", quote: "Minha presença é opcional, minha aprovação é certa.", memories: [] },
-  { id: "david-dos-santos-2", name: "David dos Santos", photo: "/mock/david-dos-santos-2.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "deivid-jorge", name: "Deivid Jorge", photo: "/mock/deivid-jorge.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "wallace-braga", name: "Wallace Braga", photo: "/mock/wallace-braga.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "vanessa-valenca", name: "Vanessa Valença", photo: "/mock/vanessa-valenca.jpg", className: "3º TV", description: "", quote: "", memories: [] },
