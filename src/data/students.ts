@@ -19,7 +19,7 @@ export const students: Student[] = [
   { id: "leticia-suellen", name: "Letícia Suellen", photo: "/mock/leticia-suellen.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "felipe-oliveira", name: "Felipe Oliveira", photo: "/mock/felipe-oliveira.jpg", className: "3º TV", description: "", quote: "Minha presença é opcional, minha aprovação é certa.", memories: [] },
   { id: "deivid-jorge", name: "Deivid Jorge", photo: "/mock/deivid-jorge.jpg", className: "3º TV", description: "", quote: "", memories: [] },
-  { id: "wallace-braga", name: "Wallace Braga", photo: "/mock/wallace-braga.jpg", className: "3º TV", description: "", quote: "", memories: [] },
+  { id: "wallace-ferreira-braga", name: "Wallace Ferreira Braga", photo: "/mock/wallace-ferreira-braga.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "vanessa-valenca", name: "Vanessa Valença", photo: "/mock/vanessa-valenca.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "jacksandro-dos-santos", name: "Jacksandro dos Santos", photo: "/mock/jacksandro-dos-santos.jpg", className: "3º TV", description: "", quote: "", memories: [] },
   { id: "thalia-semeniuk", name: "Thalia Semeniuk", photo: "/mock/thalia-semeniuk.jpg", className: "3º TV", description: "", quote: "", memories: [] },
